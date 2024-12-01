@@ -1,5 +1,3 @@
-Here’s how the updated `README.md` file would look with your provided example integrated:
-
 ---
 
 # Flutter Reusable Widgets
@@ -21,7 +19,7 @@ A versatile dialog widget to display modals with customizable buttons and styles
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/usama-qadeer/flutter-reusable-widgets.git
+   git clone https://github.com/usama-qadeer/flutter-reusable-widget.git
    ```
 2. Add the required widget files to your project.
 3. Import the desired widget:
