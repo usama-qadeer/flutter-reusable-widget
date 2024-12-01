@@ -19,7 +19,7 @@ A versatile dialog widget to display modals with customizable buttons and styles
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/usama-qadeer/flutter-reusable-widget.git
+   git clone https://github.com/usama-qadeer/flutter_reusable_widget.git
    ```
 2. Add the required widget files to your project.
 3. Import the desired widget:
