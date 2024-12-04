@@ -17,12 +17,14 @@ A versatile dialog widget to display modals with customizable buttons and styles
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/usama-qadeer/flutter_reusable_widget.git
-   ```
-2. Add the required widget files to your project.
-3. Import the desired widget:
+1. dependencies:</br>
+  reusable_widgets:</br>
+    git:</br>
+      url: https://github.com/usama-qadeer/flutter_reusable_widget.git
+2. Add this to your project's pubspec.yaml file under the dependencies section. Then run:
+3. flutter pub get  
+4. Add the required widget files to your project.
+5. Import the desired widget:
    ```dart
    import 'package:your_project_name/widgets/reusable_button.dart';
    import 'package:your_project_name/widgets/reusable_textformfield.dart';
