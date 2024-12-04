@@ -17,11 +17,14 @@ A versatile dialog widget to display modals with customizable buttons and styles
 
 ## Installation
 
-1. dependencies:</br>
-  reusable_widgets:</br>
-    git:</br>
-      url: https://github.com/usama-qadeer/flutter_reusable_widget.git
-2. Add this to your project's pubspec.yaml file under the dependencies section. Then run:
+1. Add the dependency to your `pubspec.yaml` file:
+   ```yaml
+   dependencies:
+     reusable_widgets:
+       git:
+         url: https://github.com/usama-qadeer/flutter_reusable_widget.git
+   ```
+2. Run the following command to fetch the package:
 3. flutter pub get  
 4. Add the required widget files to your project.
 5. Import the desired widget:
