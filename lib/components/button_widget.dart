@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:resuseable_widgets/components/animate_widget.dart';
-import 'package:resuseable_widgets/components/theme.dart';
+import '../exports.dart';
 
 class ReuseableBtn extends StatelessWidget {
   const ReuseableBtn(

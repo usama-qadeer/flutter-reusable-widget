@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '../exports.dart';
 
 /// Reusable Custom Dialog
 abstract class ReuseableDialog {

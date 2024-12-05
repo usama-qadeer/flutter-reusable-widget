@@ -1,6 +1,6 @@
 library flutter_bounce;
 
-import 'package:flutter/material.dart';
+import '../exports.dart';
 
 class BounceWidget extends StatefulWidget {
   final VoidCallback onPressed;
