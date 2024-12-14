@@ -1,4 +1,7 @@
 import 'package:resuseable_widgets/components/app_icon_loader.dart';
+import 'package:resuseable_widgets/extensions/datetime_extensions.dart';
+import 'package:resuseable_widgets/extensions/list_extensions.dart';
+import 'package:resuseable_widgets/extensions/usefull_extensions.dart';
 
 import '../exports.dart';
 
@@ -8,6 +11,12 @@ class HomeScreen extends StatelessWidget {
   TextEditingController controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    String name = "hello world";
+    String email = "test@example.com";
+    DateTime now = DateTime.now();
+    List<int> numbers = [1, 2, 2, 3, 4];
+    List<int> shuffled = [1, 2, 3, 4];
+
     return Scaffold(
       body: LoaderWithAppIcon(
         appIcon: const FlutterLogo(), // replace with your asset image
@@ -58,6 +67,20 @@ class HomeScreen extends StatelessWidget {
               controller: controller,
               label: "",
             ),
+
+            Text(name.capitalize()), // Output: Hello world
+
+            Text(email.isValidEmail.toString()), // Output: true
+
+            Text(now.toFormattedString("yyyy-MM-dd")), // Output: 2024-12-14
+            Text(now.isToday.toString()), // Output: true
+            Text(now
+                .addBusinessDays(5)
+                .toString()), // Output: a DateTime object 5 business days later
+            Text(numbers.removeDuplicates().toString()), // Output: [1, 2, 3, 4]
+
+//shuffled.shuffleList(),
+            Text(shuffled.toString()), // Output: shuffled list
           ],
         )),
       ),
